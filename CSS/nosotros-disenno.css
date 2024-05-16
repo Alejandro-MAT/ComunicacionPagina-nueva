@@ -1,0 +1,115 @@
+:root{
+    --colorNegro: #000000;
+    --colorBlanco: #ffffff;
+    --colorNaranjaOscuro: #D14D02;
+    --colorNaranjaClaro: #FF8C09;
+    --colorAmarilloUpn: #FCB830;
+}
+
+html{
+    background-image: url('../IMG/fondo-humoBlanco.avif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    cursor: url(../ASSETS/cigarrito.png), auto;
+}
+/* Logo-main */
+.logoPrincipal{
+    margin: 0 10%;
+}
+.logoPrincipal>img{
+    width: 10rem;
+}
+/* Barra de navegacion */
+.barraNavegacion {
+    margin: 0 10%;
+    font-size: 1.5rem;
+}
+.barraNavegacion>ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    background: var(--colorAmarilloUpn);
+    padding: 0;
+}
+
+.elementos-navegacion{
+    background: var(--colorAmarilloUpn);
+    justify-content: center;
+    align-items: center;
+    padding: 1.4rem;
+}
+.elementos-navegacion a{
+    text-decoration: none;
+    color: var(--colorNaranjaOscuro);
+}
+.barraNavegacion ul li:nth-child(5) {
+    background-color: var(--colorNaranjaClaro);
+}
+.elementos-navegacion a:hover {
+    transition: 0.5s;
+    color: var(--colorBlanco);
+}
+
+/* slide */
+.contenedorSlider {
+    width: 30%;
+    margin: 20px auto;
+    overflow: hidden;
+}
+.contenedorSlider ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: slide 15s infinite alternate linear;
+}
+.contenedorSlider li {
+    list-style: none;
+    width: 100%;
+}
+.contenedorSlider img {
+    width: 100%;
+    height: 100%;
+}
+.contenedorSlider img {
+    width: 100%;
+    height: 100%;
+}
+@keyframes slide {
+    0% {margin-left: 0%;}
+    20% {margin-left: 0%;}
+
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+}
+.contenedor-secundario{
+    margin: 0 25%;
+}
+.contenedor-secundario h1{
+    padding: 20px;
+    font-size: 30px;
+}
+.datos-biodata{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.datos-biodata img{
+    width: 170px;
+}
+
+.informacionPersonal{
+    margin: 20px;
+}
+.nombres{
+    color: red;
+    margin: 20px;
+}
