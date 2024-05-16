@@ -7,21 +7,20 @@
 }
 
 html{
-    background-image: url('../IMG/fondo-humoBlanco.avif');
+    background-image: url('./IMG/fondo-humoBlanco.avif');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    cursor: url(../ASSETS/cigarrito.png), auto;
+    cursor: url(./ASSETS/cigarrito.png), auto;
 }
-/* Logo-main */
+
 .logoPrincipal{
     margin: 0 10%;
 }
 .logoPrincipal>img{
     width: 10rem;
 }
-/* Barra de navegacion */
 .barraNavegacion {
     margin: 0 10%;
     font-size: 1.5rem;
@@ -45,7 +44,7 @@ html{
     text-decoration: none;
     color: var(--colorNaranjaOscuro);
 }
-.barraNavegacion ul li:nth-child(3) {
+.barraNavegacion ul li:first-child {
     background-color: var(--colorNaranjaClaro);
 }
 .elementos-navegacion a:hover {
@@ -90,7 +89,6 @@ html{
     75% {margin-left: -300%;}
     100% {margin-left: -300%;}
 }
-/* contenido - texto */
 .texto-contenido {
     margin: 0 25%;
 }
@@ -98,49 +96,5 @@ html{
     text-align: justify;
     font-size: 1.5rem;
     color: var(--color5);
-    margin-bottom: 20px;
-}
-
-
-/* Parrafos */
-
-.texto-contenido {
-    margin: 0 25%;
-}
-
-.texto-contenido p {
-    text-align: justify;
-    font-size: 20px;
-    color: var(--color2);
-}
-
-.parrafo h2 {
-    margin: 20px 0;
-    text-align: center;
-    font-size: 25px;
-    font-weight: bold;
-}
-
-.parrafo h3 {
-    font-size: 25px;
-    font-weight: bold;
-    margin: 20px 0;
-}
-
-.encabezado {
-    text-align: center;
-    font-size: 20px;
-}
-
-.encabezado div p {
-    text-align: center;
-    font-size: 20px;
-}
-
-.sangria {
-    text-align: justify;
-    font-size: 20px;
-    color: var(--color2);
-    margin-left: 50px;
     margin-bottom: 20px;
 }

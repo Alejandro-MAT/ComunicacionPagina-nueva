@@ -7,20 +7,21 @@
 }
 
 html{
-    background-image: url('../IMG/fondo-humoBlanco.avif');
+    background-image: url('./IMG/fondo-humoBlanco.avif');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    cursor: url(../ASSETS/cigarrito.png), auto;
+    cursor: url(./ASSETS/cigarrito.png), auto;
 }
-
+/* Logo-main */
 .logoPrincipal{
     margin: 0 10%;
 }
 .logoPrincipal>img{
     width: 10rem;
 }
+/* Barra de navegacion */
 .barraNavegacion {
     margin: 0 10%;
     font-size: 1.5rem;
@@ -44,7 +45,7 @@ html{
     text-decoration: none;
     color: var(--colorNaranjaOscuro);
 }
-.barraNavegacion ul li:first-child {
+.barraNavegacion ul li:nth-child(4) {
     background-color: var(--colorNaranjaClaro);
 }
 .elementos-navegacion a:hover {
@@ -89,6 +90,8 @@ html{
     75% {margin-left: -300%;}
     100% {margin-left: -300%;}
 }
+
+/* contenido - texto */
 .texto-contenido {
     margin: 0 25%;
 }

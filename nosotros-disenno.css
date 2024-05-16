@@ -7,12 +7,12 @@
 }
 
 html{
-    background-image: url('../IMG/fondo-humoBlanco.avif');
+    background-image: url('./IMG/fondo-humoBlanco.avif');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    cursor: url(../ASSETS/cigarrito.png), auto;
+    cursor: url(./ASSETS/cigarrito.png), auto;
 }
 /* Logo-main */
 .logoPrincipal{
