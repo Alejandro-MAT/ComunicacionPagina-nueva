@@ -7,13 +7,15 @@
 }
 
 html{
-    background-image: url('./IMG/fondo-humoBlanco.avif');
+    background-image: url('./IMG/fondo-humoblanco-terminado.PNG');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     cursor: url(./ASSETS/cigarrito.png), auto;
+    font-family: "Arimo", sans-serif;
 }
+
 /* Logo-main */
 .logoPrincipal{
     margin: 0 10%;
@@ -24,7 +26,7 @@ html{
 /* Barra de navegacion */
 .barraNavegacion {
     margin: 0 10%;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 .barraNavegacion>ul{
     display: flex;
@@ -97,7 +99,7 @@ html{
 .texto-contenido p {
     text-align: justify;
     font-size: 1.5rem;
-    color: var(--color5);
+    color: var(--colorNegro);
     margin-bottom: 20px;
 }
 
@@ -111,7 +113,9 @@ html{
 .texto-contenido p {
     text-align: justify;
     font-size: 20px;
-    color: var(--color2);
+}
+.parrafo{
+    color: var(--colorNegro);
 }
 
 .parrafo h2 {
@@ -140,7 +144,6 @@ html{
 .sangria {
     text-align: justify;
     font-size: 20px;
-    color: var(--color2);
     margin-left: 50px;
     margin-bottom: 20px;
 }

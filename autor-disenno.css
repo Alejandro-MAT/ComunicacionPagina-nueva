@@ -13,6 +13,7 @@ html{
     background-size: cover;
     background-attachment: fixed;
     cursor: url(./ASSETS/cigarrito.png), auto;
+    font-family: "Arimo", sans-serif;
 }
 
 .logoPrincipal{
@@ -23,7 +24,7 @@ html{
 }
 .barraNavegacion {
     margin: 0 10%;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 .barraNavegacion>ul{
     display: flex;
