@@ -54,7 +54,7 @@ html{
 
 /* slide */
 .contenedorSlider {
-    width: 30%;
+    width: 20%;
     margin: 20px auto;
     overflow: hidden;
 }
@@ -97,4 +97,10 @@ html{
     font-size: 1.5rem;
     color: var(--color5);
     margin-bottom: 20px;
+}
+.parrafo h2{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+
 }

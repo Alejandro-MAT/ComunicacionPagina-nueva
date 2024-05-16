@@ -95,6 +95,12 @@ html{
 .texto-contenido {
     margin: 0 25%;
 }
+.texto-contenido h2{
+    font-size: 1.5rem;   
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
 .texto-contenido p {
     text-align: justify;
     font-size: 1.5rem;
