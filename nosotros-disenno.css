@@ -92,7 +92,7 @@ html{
     100% {margin-left: -300%;}
 }
 .contenedor-secundario{
-    margin: 0 20%;
+    margin: 0 16%;
 }
 .contenedor-secundario h1{
     padding: 20px;
@@ -114,4 +114,9 @@ html{
 .nombres{
     color: red;
     margin: 20px;
+}
+
+.documentos{
+    width: 12.5vw;
+    height: 18rem;
 }
